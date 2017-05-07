@@ -2,5 +2,6 @@ language: csharp
 solution: githubTests.sln
 mono: none
 dotnet: 1.0.1
+dist: trusty
 script:
   - ./build.sh --quiet verify
