@@ -1,2 +1,4 @@
 language: csharp
 solution: githubTests.sln
+script:
+  - ./build.sh --quiet verify
